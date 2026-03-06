@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 전체 박스 */
+.login-box{
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+/* 구글 로그인 버튼 */
+.login-btn{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffbf4;
+}
+/* 로고 이미지 */
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 50px;
+    display: block;
+}
+/* 로고 텍스트 */
+.login-txt{
+    width: 70%;
+    /* text-align: center; */
+    color: saddlebrown;
+    /* background-color: beige; */
+}
+/* OR 텍스트 */
+.or-txt{
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(184, 157, 121);
+}
+/* 입력폼 전체 */
+.form-wrap{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* background-color: #333; */
+}
+.form-wrap input{
+    padding: 10px;
+}
+.form-wrap button{
+    padding: 10px;
+    font-weight: bold;
+    color: ivory;
+    background-color: saddlebrown;
+}
+.forgot-txt{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(184, 157, 121);
+}
+
+/* 연습2 */
+
+/* 전체 박스 */
+.login-box2{
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: rgb(227, 230, 228); */
+}
+/* 로고 */
+.naver-logo{
+    width: 130px;
+    margin: 30px auto;
+}
+.naver-logo img{
+    width: 100%;
+}
+
+/* 위 박스 */
+.login-btnbox{
+    width: 300px;
+    border: 1px solid #d8d8d8;
+    border-radius: 8px;
+    /* background-color: antiquewhite; */
+}
+/* 상단 선택 버튼 */
+.top-btn{
+    width: 300px;
+    padding: 10px;
+    /* padding: 10px; */
+    /* border: 1px solid #888; */
+    /* background-color: rgb(255, 255, 255); */
+}
+.top-btn ul{
+    display: flex;
+    justify-content: space-around;
+}
+.top-btn li{
+    /* border:1px solid #777; */
+    font-size: 10pt;
+    color: #333;
+    background-color: #fff;
+}
+
+/* 입력칸 */
+.form-wrap2{
+    margin-top: 20px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form-wrap2 input{
+    padding: 12px;
+    /* border: 1px solid #c5ccd2; */
+}
+.id-box{
+    border: 1px solid #c5ccd2;
+    border-radius: 6px 6px 0 0;
+}
+.pw{
+    border: 1px solid #c5ccd2;
+    border-top: 0;
+    border-radius: 0 0 6px 6px;
+}
+/* 로그인 상태 유지 */
+.form-wrap2-2{
+    margin-top: 5px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.radio-btn{
+    padding-left: 20px;
+}
+.login-check{
+    font-size: 11px;
+    color: #888;
+}
+/* 로그인 버튼 */
+.login-btnclick{
+    width: 260px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #a5adb8;
+}
+/* 하단 선택 */
+.bottom-btn{
+    /* width: 300px; */
+    padding: 20px 30px;
+}
+.bottom-btn ul{
+
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    color: #888;
+}
+/* 하단 광고 */
+.bottom-ad img{
+    width: 100%;
+    margin: 20px auto;
+}
