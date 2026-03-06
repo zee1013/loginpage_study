@@ -10,65 +10,6 @@ a{
     text-decoration: none;
     color: #333;
 }
-/* 전체 박스 */
-.login-box{
-    width: 300px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: antiquewhite;
-}
-/* 구글 로그인 버튼 */
-.login-btn{
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fffbf4;
-}
-/* 로고 이미지 */
-.logo{
-    width: 10%;
-}
-.logo img{
-    width: 50px;
-    display: block;
-}
-/* 로고 텍스트 */
-.login-txt{
-    width: 70%;
-    /* text-align: center; */
-    color: saddlebrown;
-    /* background-color: beige; */
-}
-/* OR 텍스트 */
-.or-txt{
-    margin: 10px 0;
-    text-align: center;
-    color: rgb(184, 157, 121);
-}
-/* 입력폼 전체 */
-.form-wrap{
-    padding: 10px;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    /* background-color: #333; */
-}
-.form-wrap input{
-    padding: 10px;
-}
-.form-wrap button{
-    padding: 10px;
-    font-weight: bold;
-    color: ivory;
-    background-color: saddlebrown;
-}
-.forgot-txt{
-    margin: 10px 0;
-    text-align: center;
-    font-size: 12px;
-    color: rgb(184, 157, 121);
-}
 
 /* 연습2 */
 
